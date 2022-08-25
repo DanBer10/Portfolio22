@@ -1,0 +1,33 @@
+{
+  "name": "portfolio-2022",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@mui/icons-material": "^5.10.2",
+    "@mui/material": "^5.10.1",
+    "@react-spring/web": "^9.5.2",
+    "@use-gesture/react": "^10.2.18",
+    "framer-motion": "^7.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-lazy": "^1.1.0",
+    "react-lazy-load-image-component": "^1.5.5",
+    "react-router-dom": "^6.3.0",
+    "sass": "^1.54.5",
+    "swiper": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.1",
+    "vite": "^3.0.7"
+  }
+}
