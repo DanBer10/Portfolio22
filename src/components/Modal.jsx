@@ -15,16 +15,26 @@ const Modal = (props) => {
       // onClick={() => handleActiveCard(cardIndex)}
     >
       <Stack spacing={2}>
-        <Container maxWidth="sm">
+        <Container
+          maxWidth="sm"
+          sx={{ display: "flex", flexDirection: "column" }}
+        >
           <Typography
-            color="#fff"
-            variant="h1"
+            color="#3a3a3a"
+            variant="h2"
             className={`${modalOpen ? "show" : "hidden"}`}
+            sx={{ fontFamily: "Montserrat", fontWeight: "800" }}
           >
             {title}
           </Typography>
           <Typography
-            sx={{ variant: "body1", mt: "30px", mb: "30px" }}
+            sx={{
+              variant: "body1",
+              mt: "30px",
+              mb: "30px",
+              fontSize: "18px",
+              fontFamily: "Montserrat",
+            }}
             className={`${modalOpen ? "show" : "hidden"}`}
           >
             {params}
@@ -34,7 +44,13 @@ const Modal = (props) => {
             target="_blank"
             rel="noopener noreferrer"
             alt={`Couldn't load ${title} url`}
-            sx={{ color: "#fff", fontSize: "20px" }}
+            sx={{
+              color: "#3a3a3a",
+              fontSize: "18px",
+              fontWeight: "800",
+              fontFamily: "Montserrat",
+              backgroundColor: "#ffd324",
+            }}
           >
             Visit Project
           </Button>

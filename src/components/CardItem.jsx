@@ -40,7 +40,11 @@ const CardItem = () => {
                     alt="green iguana"
                   />
                   <CardContent>
-                    <Typography gutterBottom variant="h6" component="div">
+                    <Typography
+                      gutterBottom
+                      component="div"
+                      sx={{ fontFamily: "Montserrat", fontWeight: "800" }}
+                    >
                       {item.title}
                     </Typography>
                     <Typography variant="body2" color="text.secondary">

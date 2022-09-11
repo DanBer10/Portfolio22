@@ -8,12 +8,7 @@ import Projects from "./pages/Projects";
 function App() {
   return (
     <>
-      <Routing>
-        <Navbar />
-        <Home />
-        <About />
-        <Projects />
-      </Routing>
+      <Routing />
     </>
   );
 }
